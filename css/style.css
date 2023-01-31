@@ -38,7 +38,7 @@ a {
 /* scroll-up */
 .scroll-up {
     position: fixed;
-    z-index: 90;
+    z-index: 999;
     right: 35px;
     cursor: pointer;
     scroll-behavior: smooth;
