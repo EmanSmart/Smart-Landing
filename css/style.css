@@ -102,7 +102,7 @@ a {
     color: white;
 }
 .navbar .logo{
-    width: 13%;
+    width: 14%;
     margin-left: 5%;
 }
 
@@ -112,20 +112,26 @@ a {
     width: 2% !important;
     height: 16px !important;
 }
-.slider .leap {
-    margin-bottom: 20%;
+.slider  .leap {
+    margin-bottom: 23%;
     margin-right: 42%;
 }
-.slider .carousel-caption p{
+.slider .carousel-caption button{
     margin-bottom: 5%;
     font-weight: bold;
     margin-right: 42%;
-    font-size: 200%;
+    font-size: 170%;
+    width: 20%;
 }
-.slider .smartimg{
+/* .slider .smartimg{
     width: 48%;
     margin-left: -10%;
-}
+} */
+/* .slider .carousel-indicators button{
+    border-radius:100% ;  
+    width: 2% !important;
+    height: 16px !important;
+} */
 /* Our Vision-style */
 .our-vision{
     padding-left: 0;
@@ -276,7 +282,7 @@ a {
     padding-left: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    color: #ADACB2;
+    color: #000;
     font-weight: 400;
     font-size: 20px;
     border: none;
@@ -301,6 +307,34 @@ a {
     background-color: #CB1E1A;
     color: #fff;
 }
+/*update */
+.form-contact .input-box select{
+    background: #FFFFFF;
+    border-radius: 35px;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+::placeholder{
+    color: #ADACB2;
+    font-weight: 400;
+    font-size: 20px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select option {
+  color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #999999;
+}
 
 
 /* media */
@@ -314,9 +348,9 @@ a {
         color: white;
         position: absolute;
     }
-    .navbar .logo{
+    /* .navbar .logo{
         width: 25%;
-    }    
+    }     */
     .navbar .btnJion{
         width: 20%;
     }
@@ -330,6 +364,29 @@ a {
     }
     .iframe video{
         height: 25%;
+    }
+    .slider .leap {
+        margin-bottom: 19%;
+        margin-right: 42%;
+    }
+    .scroll-up {
+        position: fixed;
+        z-index: 999;
+        right: 35px;
+        cursor: pointer;
+        scroll-behavior: smooth;
+        padding: 30px 30px;
+        bottom: 18px;
+        transition: all 0.3s;
+        font-size: 22px;
+        background-color: #CB1E1A;
+        border-radius: 50%;
+        box-shadow: -2px 4px 5px #5554;
+        color: #fff;
+    }
+    /* value */
+    .data-sm{
+        margin-left: 0 !important;
     }
 }
 
